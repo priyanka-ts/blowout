@@ -1,0 +1,237 @@
+body {
+  margin-top:100px;
+  margin-bottom: 100px;
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar-inverse {
+	background-color: transparent;
+	border: none;
+  min-height: 0px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #282828;
+  font-size: 14px;
+  -webkit-transition: all ease .2s;
+       -moz-transition: all ease .2s;
+         -o-transition: all ease .2s;
+            transition: all ease .2s;
+  font-weight: 300;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #444444;
+  background-color: rgba(255,255,255, 0.6);
+  -webkit-transition: all ease .2s;
+       -moz-transition: all ease .2s;
+         -o-transition: all ease .2s;
+            transition: all ease .2s;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #444;
+  background-color: rgba(255,255,255, 0.8);
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 60px;
+    height: 60px;
+    padding-top: 0;
+}
+
+.navbar-brand {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.top-nav-brand {
+  background-color: #fbf8f7;
+  border-bottom: 5px solid #A3725A;
+  padding: 20px;
+}
+
+.book-nav-button {
+  background-color: #A3725A;
+  color: #fff !important;
+}
+
+.home-footer {
+  background-color: rgba(40, 40, 40, 0.8);
+  /*border-top: 1px solid #222;*/
+  min-height: 40px;
+  padding-top: 10px;
+}
+
+.footer-text {
+  font-size: 14px;
+  color: #999;
+  font-weight: 300;
+}
+
+.location-footer {
+  font-size: 14px;
+  color: #FFF;
+  font-weight: 300;
+}
+
+.home-content {
+  background-color: rgba(255,255,255, 0.9);
+  height: 100%;
+  margin-top: 30px;
+  margin-left: 40px;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.services-content {
+  background-color: rgba(255,255,255, 0.9);
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 40px;
+  padding-left:50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+
+}
+
+.home-content h1 {
+  font-weight: 200 !important;
+  line-height: 1.5;
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar-right {
+  padding-right: 40px;
+}
+
+.main-title {
+  font-family: 'Allura', cursive !important;
+  font-size: 60px;
+  color: #4B4C4C;
+  margin-bottom: 0px;
+
+}
+
+.subtitle {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 200 !important;
+  color: #4B4C4C;
+  margin-top: 0px;
+
+}
+
+.script-subtitle {
+  font-family: 'Allura', cursive !important;
+}
+
+.content {
+  font-weight: 200;
+  font-size: 16px;
+}
+
+.btn-blowout {
+  background-color: #A3725A;
+  color: #fff;
+  font-weight: 200;
+  border-radius: 0px;
+  height: 50px;
+  -webkit-transition: all ease .2s;
+       -moz-transition: all ease .2s;
+         -o-transition: all ease .2s;
+            transition: all ease .2s;
+}
+
+.btn-blowout:hover {
+  background-color: #8F604B;
+  color: #fff;
+  -webkit-transition: all ease .2s;
+       -moz-transition: all ease .2s;
+         -o-transition: all ease .2s;
+            transition: all ease .2s;
+}
+
+.home-map {
+  margin-top: 15px;
+}
+
+.services-tabs li {
+  text-transform: uppercase;
+  font-weight: 200;
+  color: #A3725A !important;
+  text-align: left;
+  border: 0px;
+}
+
+.service-heading {
+  text-transform: uppercase;
+  font-weight: 200 !important;
+}
+
+.service-name {
+  text-transform: uppercase;
+  font-weight: 200 !important;
+  font-size: 20px;
+}
+
+a {
+  color: #A3725A;
+  font-weight: 400;
+}
+
+a:hover, a:active {
+  color: #8F604B;
+}
+
+.service-description {
+  font-weight: 200;
+  font-size: 16px;
+}
+
+.disclaimer {
+  font-weight: 200;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+  border: 0px;
+  border-radius: 0px;
+  background-color: #f4f3f3;
+  color: ;
+}
+
+.nav-tabs > li > a {
+  border-radius: 0px;
+  border-bottom: none;
+  color: #4B4C4C;
+}
+
+.nav-tabs {
+  border-bottom: 0px;
+}
+
+.page-heading {
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.heading-wrapper {
+  border-bottom: 1px solid #b98a73;
+  margin-bottom: 30px;
+}
+
+.content-footer {
+  border-top: 1px solid #b98a73;
+  margin-top: 40px;
+  padding-top: 15px;
+}
